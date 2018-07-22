@@ -1,8 +1,25 @@
 {
-  "name": "learn-weekly-1-svg",
+  "name": "cs-weekly-1-svg-envelope",
   "version": "0.1.0",
-  "private": true,
+  "description":"An svg envelope with open and close animations",
+  "keywords": ["svg", "envelope"],
+  "homepage": "https://github.com/vapurrmaid/cs-weekly-1-svg-envelope",
+  "bugs": {
+    "url" : "https://github.com/vapurrmaid/cs-weekly-1-svg-envelope/issues",
+    "email" : "vapurrmaid@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "vapurrmaid",
+    "email": "vapurrmaid@gmail.com",
+    "url": "https://github.com/vapurrmaid"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vapurrmaid/cs-weekly-1-svg-envelope.git"
+  },
   "scripts": {
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -15,6 +32,8 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
     "@vue/cli-service": "^3.0.0-rc.5",
     "@vue/eslint-config-standard": "^3.0.0-rc.5",
+    "vue-gh-pages": "^1.16.3",
     "vue-template-compiler": "^2.5.16"
-  }
+  },
+  "private": true
 }
