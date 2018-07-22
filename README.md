@@ -5,7 +5,7 @@
 # SVG Envelope :envelope:
 A simple SVG envelope with open and close animations wrapped in a `Vue` application.
 
-![envelope demo gif](https://cdn-images-1.medium.com/max/1000/1*3q-R5wncF7emNqK8Ub_h6Q.gif)
+![envelope demo gif](https://i.imgur.com/V71OiBh.gif)
 
 [VIEW THE DEMO](https://vapurrmaid.github.io/cs-weekly-1-svg-envelope/)
 
