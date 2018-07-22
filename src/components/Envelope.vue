@@ -49,6 +49,7 @@
           fill="rgba(255, 79, 79, .8)"/>
       </g>
     </svg>
+    <!-- Paper Component -->
     <transition name="paper-animation">
       <Paper v-if="open" />
     </transition>
