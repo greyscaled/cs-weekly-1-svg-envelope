@@ -3,7 +3,9 @@
     <!-- Headinng -->
     <div class="row">
       <div class="col s12">
-        <h1>SVG Envelope</h1>
+        <transition name="heading-transition" appear>
+          <h1>SVG Envelope</h1>
+        </transition>
       </div>
     </div>
     <!-- SVG -->
@@ -15,7 +17,9 @@
       </div>
     </div>
     <!-- Page Footer -->
-    <Footer />
+    <transition name="footer-transition" appear>
+      <Footer />
+    </transition>
   </div>
 </template>
 
@@ -75,5 +79,20 @@ body {
   100% {
     clip-path: circle(100%);
   }
+}
+
+/* easing in the heading */
+.heading-transition-enter-active {
+  animation: fadeIn 1s ease-in;
+}
+
+/* easing in the Footer */
+.footer-transition-enter-active {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 </style>
