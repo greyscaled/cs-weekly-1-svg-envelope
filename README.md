@@ -26,14 +26,14 @@ If you take a look at `Envelope.vue`, you see:
 
 ```html
 <svg
-      class="svg-envelope"
-      id="envelope"
-      preserveAspectRatio="xMidYMid meet"
-      height="400"
-      width="400"
-      viewbox="0 0 400 400"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:svg="http://www.w3.org/2000/svg">
+  class="svg-envelope"
+  id="envelope"
+  preserveAspectRatio="xMidYMid meet"
+  height="400"
+  width="400"
+  viewbox="0 0 400 400"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
 ```
 
 `viewbox` and `preserveAspectRatio` are the attributes that allow the magic of SVG scaling to occur.
