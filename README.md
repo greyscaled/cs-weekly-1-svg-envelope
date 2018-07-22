@@ -5,6 +5,8 @@
 # SVG Envelope :envelope:
 A simple SVG envelope with open and close animations wrapped in a `Vue` application.
 
+[VIEW THE DEMO](https://vapurrmaid.github.io/cs-weekly-1-svg-envelope/)
+
 ## About
 This is the first of a declared ~weekly effort called [Code Something Weekly](https://medium.com/@vapurrmaid/code-something-weekly-how-and-why-44640d279ca1).
 
