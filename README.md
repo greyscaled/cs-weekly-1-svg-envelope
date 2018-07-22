@@ -7,6 +7,8 @@ A simple SVG envelope with open and close animations wrapped in a `Vue` applicat
 
 [VIEW THE DEMO](https://vapurrmaid.github.io/cs-weekly-1-svg-envelope/)
 
+[Blog Writeup](https://medium.com/@vapurrmaid/c-s-weekly-1-envelope-svg-dbab242bc28b)
+
 ## About
 This is the first of a declared ~weekly effort called [Code Something Weekly](https://medium.com/@vapurrmaid/code-something-weekly-how-and-why-44640d279ca1).
 
