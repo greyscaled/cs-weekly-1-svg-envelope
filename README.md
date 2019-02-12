@@ -161,5 +161,5 @@ These classes are used to just invoke animations (`@keyframes`). Note that `forw
 
 
 ## Issues, PRs
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Greenkeeper badge](https://badges.greenkeeper.io/vapurrmaid/cs-weekly-1-svg-envelope.svg)](https://greenkeeper.io/)
 Feel free submit a PR or raise any issues. 
